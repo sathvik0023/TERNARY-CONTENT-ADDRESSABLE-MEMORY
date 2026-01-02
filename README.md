@@ -28,21 +28,14 @@ TCAM enables high-speed parallel search operations with ternary logic (0, 1, X) 
 ├── README.md
 ├── rtl/
 │   └── tcam.v
-├── tb/
-│   └── tcam_tb.v
-└── docs/
-    └── Project_Report.pdf
+└── tb/
+    └── tcam_tb.v
 ```
 
 ## How to Run (Simulation)
 ```bash
 ncverilog rtl/tcam.v tb/tcam_tb.v -access +rwc -coverage all -gui
 ```
-
-## Guide
-Dr. Saswat Kumar Ram  
-Assistant Professor, ECE  
-SRM University AP
 
 ## License
 This project is intended for academic and educational use.
