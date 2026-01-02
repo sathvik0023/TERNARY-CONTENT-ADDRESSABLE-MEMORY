@@ -1,0 +1,75 @@
+# Verilog/ASIC build artifacts
+*.log
+*.vcd
+*.fsdb
+*.svf
+*.sdf
+*.sdc
+*.def
+*.lef
+*.gds
+*.gds2
+*.o
+*.so
+
+# Simulation files
+work/
+*.key
+*.shm
+INCA_libs/
+ncverilog.log
+ncvlog.log
+ncelab.log
+ncsim.log
+*.dat
+
+# Synthesis files
+*.rpt
+*.area
+*.power
+*.timing
+*.dc
+*.svf
+netlist/
+reports/
+logs/
+
+# DFT files
+*.atp
+*.spf
+*.wgl
+
+# Physical Design files
+*.def
+*.lef
+*.gds
+*.gds2
+*.spef
+*.sdf
+*.tluplus
+*.capTable
+*.itf
+*.map
+
+# Tool specific
+.cadence/
+.innovus/
+.genus/
+.tempus/
+.modus/
+.conformal/
+.vivado/
+.questa/
+.modelsim/
+.DS_Store
+
+# Backup files
+*~
+*.bak
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+
